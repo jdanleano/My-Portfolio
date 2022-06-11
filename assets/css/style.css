@@ -130,17 +130,17 @@ section h2 {
 
 /* Section Background URL Links */
 section#home {
-  background: url(C:/Users/User/Documents/1-Coding-Bootcamp/01-Challenge/Mod-02-Challenge/assets/images/home.jpeg) no-repeat center center/cover;
+  background: url(./assets/images/home.jpeg) no-repeat center center/cover;
 }
 
 section#about {
-  background: url(C:/Users/User/Documents/1-Coding-Bootcamp/01-Challenge/Mod-02-Challenge/assets/images/about-me.jpg) no-repeat center center/cover;
+  background: url(./assets/images/about-me.jpg) no-repeat center center/cover;
 }
 
 section#my-work {
-  background: url(C:/Users/User/Documents/1-Coding-Bootcamp/01-Challenge/Mod-02-Challenge/assets/images/work-back.jpeg) no-repeat center center/cover;
+  background: url(./assets/images/work-back.jpeg) no-repeat center center/cover;
 }
 
 section#contact {
-  background: url(C:/Users/User/Documents/1-Coding-Bootcamp/01-Challenge/Mod-02-Challenge/assets/images/contact.jpg) no-repeat center center/cover;
+  background: url(./assets/images/contact.jpg) no-repeat center center/cover;
 }
