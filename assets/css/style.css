@@ -1,0 +1,146 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 4px 2px 0 #000,
+    2px 1px 0 #000,
+    3px -1px 0 #000;
+  background: #333;
+  color: #fff;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: solid;
+  text-shadow: 4px 2px 0 #000,
+    2px 1px 0 #000,
+    3px -1px 0 #000;
+  color: #ffffff;
+}
+
+/* The below code is used to scroll using the nav */
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+}
+
+.navbar ul li a:hover {
+  color: #ff3131;
+}
+
+/* From this code below, all the way down, are CSS for each individual section in order from Home, About Me, My Work, and lastly Contact Me */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  /* Used the scroll-snap-align to center */
+  scroll-snap-align: center;
+}
+
+section h1 {
+  font-size: 7rem;
+}
+
+section h2 {
+  font-size: 5rem;
+}
+
+#id-pic {
+  max-width: 300px;
+  max-height: 300px;
+  padding: 26px;
+}
+
+#about p {
+  padding: 55px 50px 1px 50px;
+}
+
+#my-work-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-style: solid;
+  margin: 8px;
+}
+
+.card img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+/* I needed to make this separate ID from the rest of the cards since this is the first work example as stated in the acceptance criteria. */
+#card-1 {
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  flex-direction: column;
+  max-width: 700px;
+  max-height: 600px;
+  margin: 8px;
+}
+
+#card-1 img {
+  max-width: 700px;
+  max-height: 450px;
+}
+
+/* Section Background URL Links */
+section#home {
+  background: url(C:/Users/User/Documents/1-Coding-Bootcamp/01-Challenge/Mod-02-Challenge/assets/images/home.jpeg) no-repeat center center/cover;
+}
+
+section#about {
+  background: url(C:/Users/User/Documents/1-Coding-Bootcamp/01-Challenge/Mod-02-Challenge/assets/images/about-me.jpg) no-repeat center center/cover;
+}
+
+section#my-work {
+  background: url(C:/Users/User/Documents/1-Coding-Bootcamp/01-Challenge/Mod-02-Challenge/assets/images/work-back.jpeg) no-repeat center center/cover;
+}
+
+section#contact {
+  background: url(C:/Users/User/Documents/1-Coding-Bootcamp/01-Challenge/Mod-02-Challenge/assets/images/contact.jpg) no-repeat center center/cover;
+}
