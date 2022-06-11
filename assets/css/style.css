@@ -129,18 +129,18 @@ section h2 {
 }
 
 /* Section Background URL Links */
-section#home {
-  background: url(./assets/images/home.jpeg) no-repeat center center/cover;
+section #home {
+  background: url(https://raw.githubusercontent.com/jdanleano/Mod-02-Challenge/master/assets/images/home.jpeg) no-repeat center center/cover;
 }
 
-section#about {
-  background: url(./assets/images/about-me.jpg) no-repeat center center/cover;
+section #about {
+  background: url(https://raw.githubusercontent.com/jdanleano/Mod-02-Challenge/master/assets/images/about-me.jpg) no-repeat center center/cover;
 }
 
-section#my-work {
-  background: url(./assets/images/work-back.jpeg) no-repeat center center/cover;
+section #my-work {
+  background: url(https://raw.githubusercontent.com/jdanleano/Mod-02-Challenge/master/assets/images/work-back.jpeg) no-repeat center center/cover;
 }
 
-section#contact {
-  background: url(./assets/images/contact.jpg) no-repeat center center/cover;
+section #contact {
+  background: url(https://github.com/jdanleano/Mod-02-Challenge/blob/master/assets/images/contact.jpg) no-repeat center center/cover;
 }
