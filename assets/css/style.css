@@ -118,14 +118,14 @@ section h2 {
   flex-wrap: wrap;
   border-style: solid;
   flex-direction: column;
-  max-width: 700px;
-  max-height: 600px;
+  max-width: 420px;
+  max-height: 400px;
   margin: 8px;
 }
 
 #card-1 img {
-  max-width: 700px;
-  max-height: 450px;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 /* Section Background URL Links */
@@ -143,4 +143,73 @@ section#my-work {
 
 section#contact {
   background: url(https://raw.githubusercontent.com/jdanleano/Mod-02-Challenge/master/assets/images/contact.jpg) no-repeat center center/cover;
+}
+
+/* Size adjustments for Tablets  */
+@media screen and (max-width: 992px) {
+  #my-work-cards {
+    width: 50%;
+  }
+
+  #card-1 {
+    width: 70%;
+  }
+
+  #card-1 img {
+    width: 70%;
+  }
+
+  .card {
+    width: 50%;
+  }
+
+  .card img {
+    width: 50%;
+  }
+}
+
+/* Size adjustments for larger phones */
+@media screen and (max-width: 768px) {
+  #my-work-cards {
+    width: 75%;
+  }
+
+  #card-1 {
+    width: 90%;
+  }
+
+  #card-1 img {
+    width: 90%;
+  }
+
+  .card {
+    width: 75%;
+  }
+
+  .card img {
+    width: 75%;
+  }
+}
+
+/* Size adjustments for smaller phones */
+@media screen and (max-width: 576px) {
+  #my-work-cards {
+    width: 100%;
+  }
+
+  #card-1 {
+    width: 100%;
+  }
+
+  #card-1 img {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card img {
+    width: 100%;
+  }
 }
