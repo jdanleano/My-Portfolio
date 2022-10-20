@@ -94,10 +94,18 @@ section h2 {
   padding: 55px 50px 1px 50px;
 }
 
-#my-work-cards {
+#my-work-header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#my-work-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
 }
@@ -148,7 +156,7 @@ section#contact {
 /* Size adjustments for Tablets  */
 @media screen and (max-width: 992px) {
   #my-work-cards {
-    width: 50%;
+    width: 100%;
   }
 
   #card-1 {
